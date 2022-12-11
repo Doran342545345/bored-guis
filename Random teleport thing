@@ -3,174 +3,174 @@
 
 -- Instances:
 
-local hgfhgfryftshfhgjghjnmgxh = Instance.new("ScreenGui")
-local Home = Instance.new("Frame")
-local WelcomeBack = Instance.new("TextLabel")
+local abcergegfdgfdgfdgdf = Instance.new("ScreenGui")
+local FrameLoading = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
+local Loading = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local ProfilePicture = Instance.new("ImageLabel")
 local UICorner_3 = Instance.new("UICorner")
-local Load = Instance.new("TextButton")
+local WelcomeBack = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local Page2 = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local pages = Instance.new("Folder")
-local page1 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local page2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local Teleport = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
 local Page1 = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local pages_2 = Instance.new("Folder")
-local page1_2 = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local page2_2 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local Teleport_2 = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local Close_2 = Instance.new("TextButton")
-local ProfilePicture_2 = Instance.new("ImageLabel")
-local UICorner_13 = Instance.new("UICorner")
-local WelcomeBack_2 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
-local Toggle = Instance.new("TextLabel")
-local UICorner_15 = Instance.new("UICorner")
-local Teleport_3 = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_6 = Instance.new("UICorner")
 local UIListLayout = Instance.new("UIListLayout")
 local dummyButton = Instance.new("TextButton")
-local pages_3 = Instance.new("Folder")
-local page1_3 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local page2_3 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local Teleport_4 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Close_3 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Openingbuttons = Instance.new("Folder")
+local page1 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Settings = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local settings = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Openingbuttons_2 = Instance.new("Folder")
+local page1_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Settings_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Close_2 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Flashbang = Instance.new("Frame")
 
 --Properties:
+abcergegfdgfdgfdgdf.Parent = game.CoreGui
+abcergegfdgfdgfdgdf.Name = "abcergegfdgfdgfdgdf"
+abcergegfdgfdgfdgdf.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+abcergegfdgfdgfdgdf.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+abcergegfdgfdgfdgdf.ResetOnSpawn = false
 
-hgfhgfryftshfhgjghjnmgxh.Name = "hgfhgfryftshfhgjghjnmgxh"
-hgfhgfryftshfhgjghjnmgxh.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-hgfhgfryftshfhgjghjnmgxh.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FrameLoading.Name = "FrameLoading"
+FrameLoading.Parent = abcergegfdgfdgfdgdf
+FrameLoading.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+FrameLoading.Position = UDim2.new(0.398486733, 0, 0.320913464, 0)
+FrameLoading.Size = UDim2.new(0, 393, 0, 298)
 
-Home.Name = "Home"
-Home.Parent = hgfhgfryftshfhgjghjnmgxh
-Home.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Home.BorderColor3 = Color3.fromRGB(56, 56, 56)
-Home.Position = UDim2.new(0.343001246, 0, 0.306490391, 0)
-Home.Size = UDim2.new(0, 497, 0, 321)
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = FrameLoading
+
+Loading.Name = "Loading"
+Loading.Parent = FrameLoading
+Loading.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Loading.BorderColor3 = Color3.fromRGB(18, 18, 18)
+Loading.Position = UDim2.new(0.0890585259, 0, 0.721476555, 0)
+Loading.Size = UDim2.new(0, 321, 0, 50)
+Loading.Font = Enum.Font.SourceSans
+Loading.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loading.TextScaled = true
+Loading.TextSize = 14.000
+Loading.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Loading
+
+ProfilePicture.Name = "ProfilePicture"
+ProfilePicture.Parent = FrameLoading
+ProfilePicture.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+ProfilePicture.BorderColor3 = Color3.fromRGB(18, 18, 18)
+ProfilePicture.Position = UDim2.new(0.371501267, 0, 0, 0)
+ProfilePicture.Size = UDim2.new(0, 100, 0, 100)
+ProfilePicture.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_3.CornerRadius = UDim.new(0, 800)
+UICorner_3.Parent = ProfilePicture
 
 WelcomeBack.Name = "WelcomeBack"
-WelcomeBack.Parent = Home
-WelcomeBack.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-WelcomeBack.BorderColor3 = Color3.fromRGB(56, 56, 56)
-WelcomeBack.Position = UDim2.new(0.193158954, 0, 0.355140179, 0)
-WelcomeBack.Size = UDim2.new(0, 310, 0, 50)
+WelcomeBack.Parent = FrameLoading
+WelcomeBack.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+WelcomeBack.BorderColor3 = Color3.fromRGB(18, 18, 18)
+WelcomeBack.Position = UDim2.new(0.190839693, 0, 0.416107386, 0)
+WelcomeBack.Size = UDim2.new(0, 245, 0, 50)
 WelcomeBack.Font = Enum.Font.SourceSans
 WelcomeBack.TextColor3 = Color3.fromRGB(255, 255, 255)
 WelcomeBack.TextScaled = true
 WelcomeBack.TextSize = 14.000
 WelcomeBack.TextWrapped = true
 
-UICorner.CornerRadius = UDim.new(0, 13)
-UICorner.Parent = WelcomeBack
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = WelcomeBack
 
-UICorner_2.CornerRadius = UDim.new(0, 13)
-UICorner_2.Parent = Home
+Page1.Name = "Page 1"
+Page1.Parent = abcergegfdgfdgfdgdf
+Page1.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Page1.Position = UDim2.new(0.342370749, 0, 0.253822625, 0)
+Page1.Size = UDim2.new(0, 499, 0, 321)
+Page1.Visible = false
 
-ProfilePicture.Name = "ProfilePicture"
-ProfilePicture.Parent = Home
-ProfilePicture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ProfilePicture.Position = UDim2.new(0.400402427, 0, 0.0186915882, 0)
-ProfilePicture.Size = UDim2.new(0, 100, 0, 100)
-ProfilePicture.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = Page1
 
-UICorner_3.CornerRadius = UDim.new(1, 8)
-UICorner_3.Parent = ProfilePicture
+ScrollingFrame.Parent = Page1
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.210420847, 0, 0.0809968859, 0)
+ScrollingFrame.Size = UDim2.new(0, 358, 0, 269)
 
-Load.Name = "Load"
-Load.Parent = Home
-Load.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Load.BorderColor3 = Color3.fromRGB(56, 56, 56)
-Load.Position = UDim2.new(0.297786713, 0, 0.579439223, 0)
-Load.Size = UDim2.new(0, 200, 0, 50)
-Load.Font = Enum.Font.SourceSans
-Load.Text = "Load"
-Load.TextColor3 = Color3.fromRGB(255, 255, 255)
-Load.TextScaled = true
-Load.TextSize = 14.000
-Load.TextWrapped = true
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = ScrollingFrame
 
-UICorner_4.CornerRadius = UDim.new(0, 13)
-UICorner_4.Parent = Load
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
-Page2.Name = "Page 2"
-Page2.Parent = hgfhgfryftshfhgjghjnmgxh
-Page2.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Page2.BorderColor3 = Color3.fromRGB(56, 56, 56)
-Page2.Position = UDim2.new(0.331021428, 0, 0.298076928, 0)
-Page2.Size = UDim2.new(0, 536, 0, 335)
-Page2.Visible = false
+dummyButton.Name = "dummyButton"
+dummyButton.Parent = ScrollingFrame
+dummyButton.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+dummyButton.Position = UDim2.new(1.30978072, 0, 0.546728969, 0)
+dummyButton.Size = UDim2.new(0, 200, 0, 50)
+dummyButton.Font = Enum.Font.SourceSans
+dummyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+dummyButton.TextScaled = true
+dummyButton.TextSize = 14.000
+dummyButton.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 13)
-UICorner_5.Parent = Page2
+UICorner_7.Parent = dummyButton
 
-pages.Name = "pages"
-pages.Parent = Page2
+Openingbuttons.Name = "Opening buttons"
+Openingbuttons.Parent = Page1
 
-page1.Name = "page1"
-page1.Parent = pages
+page1.Name = "page 1"
+page1.Parent = Openingbuttons
 page1.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page1.Position = UDim2.new(0, 0, 0.0507462695, 0)
-page1.Size = UDim2.new(0, 64, 0, 20)
+page1.Position = UDim2.new(0, 0, 0.0809968859, 0)
+page1.Size = UDim2.new(0, 98, 0, 24)
 page1.Font = Enum.Font.SourceSans
 page1.Text = "Page 1"
 page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+page1.TextScaled = true
 page1.TextSize = 14.000
 page1.TextWrapped = true
 
-UICorner_6.CornerRadius = UDim.new(0, 13)
-UICorner_6.Parent = page1
+UICorner_8.CornerRadius = UDim.new(0, 50)
+UICorner_8.Parent = page1
 
-page2.Name = "page2 "
-page2.Parent = pages
-page2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page2.Position = UDim2.new(0, 0, 0.134328365, 0)
-page2.Size = UDim2.new(0, 64, 0, 20)
-page2.Font = Enum.Font.SourceSans
-page2.Text = "Page 2"
-page2.TextColor3 = Color3.fromRGB(255, 255, 255)
-page2.TextSize = 14.000
-page2.TextWrapped = true
+Settings.Name = "Settings"
+Settings.Parent = Openingbuttons
+Settings.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Settings.Position = UDim2.new(0, 0, 0.919003129, 0)
+Settings.Size = UDim2.new(0, 98, 0, 24)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 13)
-UICorner_7.Parent = page2
-
-Teleport.Name = "Teleport"
-Teleport.Parent = pages
-Teleport.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Teleport.Position = UDim2.new(0, 0, 0.214925379, 0)
-Teleport.Size = UDim2.new(0, 64, 0, 20)
-Teleport.Font = Enum.Font.SourceSans
-Teleport.Text = "Teleport"
-Teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
-Teleport.TextSize = 14.000
-Teleport.TextWrapped = true
-
-UICorner_8.CornerRadius = UDim.new(0, 13)
-UICorner_8.Parent = Teleport
+UICorner_9.CornerRadius = UDim.new(0, 50)
+UICorner_9.Parent = Settings
 
 Close.Name = "Close"
-Close.Parent = pages
+Close.Parent = Openingbuttons
 Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(0.929104507, 0, 0, 0)
-Close.Size = UDim2.new(0, 38, 0, 31)
+Close.Position = UDim2.new(0.93587172, 0, 0, 0)
+Close.Size = UDim2.new(0, 32, 0, 33)
 Close.Font = Enum.Font.SourceSans
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -178,68 +178,67 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-Page1.Name = "Page 1"
-Page1.Parent = hgfhgfryftshfhgjghjnmgxh
-Page1.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Page1.BorderColor3 = Color3.fromRGB(56, 56, 56)
-Page1.Position = UDim2.new(0.331021428, 0, 0.298076928, 0)
-Page1.Size = UDim2.new(0, 536, 0, 335)
-Page1.Visible = false
+TextLabel.Parent = Page1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.599198461, 0, 0.940809965, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 19)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Press R-SHIFT to  toggle !"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 13)
-UICorner_9.Parent = Page1
+settings.Name = "settings"
+settings.Parent = abcergegfdgfdgfdgdf
+settings.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+settings.Position = UDim2.new(0.342000008, 0, 0.254000008, 0)
+settings.Size = UDim2.new(0, 499, 0, 321)
+settings.Visible = false
 
-pages_2.Name = "pages"
-pages_2.Parent = Page1
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = settings
 
-page1_2.Name = "page1"
-page1_2.Parent = pages_2
+Openingbuttons_2.Name = "Opening buttons"
+Openingbuttons_2.Parent = settings
+
+page1_2.Name = "page 1"
+page1_2.Parent = Openingbuttons_2
 page1_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page1_2.Position = UDim2.new(0, 0, 0.0507462695, 0)
-page1_2.Size = UDim2.new(0, 64, 0, 20)
+page1_2.Position = UDim2.new(0, 0, 0.0809968859, 0)
+page1_2.Size = UDim2.new(0, 98, 0, 24)
 page1_2.Font = Enum.Font.SourceSans
 page1_2.Text = "Page 1"
 page1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+page1_2.TextScaled = true
 page1_2.TextSize = 14.000
 page1_2.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 13)
-UICorner_10.Parent = page1_2
+UICorner_11.CornerRadius = UDim.new(0, 50)
+UICorner_11.Parent = page1_2
 
-page2_2.Name = "page2 "
-page2_2.Parent = pages_2
-page2_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page2_2.Position = UDim2.new(0, 0, 0.134328365, 0)
-page2_2.Size = UDim2.new(0, 64, 0, 20)
-page2_2.Font = Enum.Font.SourceSans
-page2_2.Text = "Page 2"
-page2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-page2_2.TextSize = 14.000
-page2_2.TextWrapped = true
+Settings_2.Name = "Settings"
+Settings_2.Parent = Openingbuttons_2
+Settings_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Settings_2.Position = UDim2.new(0, 0, 0.919003129, 0)
+Settings_2.Size = UDim2.new(0, 98, 0, 24)
+Settings_2.Font = Enum.Font.SourceSans
+Settings_2.Text = "Settings"
+Settings_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.TextScaled = true
+Settings_2.TextSize = 14.000
+Settings_2.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 13)
-UICorner_11.Parent = page2_2
-
-Teleport_2.Name = "Teleport"
-Teleport_2.Parent = pages_2
-Teleport_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Teleport_2.Position = UDim2.new(0, 0, 0.214925379, 0)
-Teleport_2.Size = UDim2.new(0, 64, 0, 20)
-Teleport_2.Font = Enum.Font.SourceSans
-Teleport_2.Text = "Teleport"
-Teleport_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Teleport_2.TextSize = 14.000
-Teleport_2.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 13)
-UICorner_12.Parent = Teleport_2
+UICorner_12.CornerRadius = UDim.new(0, 50)
+UICorner_12.Parent = Settings_2
 
 Close_2.Name = "Close"
-Close_2.Parent = pages_2
+Close_2.Parent = Openingbuttons_2
 Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.BackgroundTransparency = 1.000
-Close_2.Position = UDim2.new(0.929104507, 0, 0, 0)
-Close_2.Size = UDim2.new(0, 38, 0, 31)
+Close_2.Position = UDim2.new(0.93587172, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 32, 0, 33)
 Close_2.Font = Enum.Font.SourceSans
 Close_2.Text = "X"
 Close_2.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -247,175 +246,71 @@ Close_2.TextScaled = true
 Close_2.TextSize = 14.000
 Close_2.TextWrapped = true
 
-ProfilePicture_2.Name = "ProfilePicture"
-ProfilePicture_2.Parent = Page1
-ProfilePicture_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ProfilePicture_2.Position = UDim2.new(0.430253178, 0, 0.0127214389, 0)
-ProfilePicture_2.Size = UDim2.new(0, 100, 0, 100)
-ProfilePicture_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+TextButton.Parent = settings
+TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton.BorderColor3 = Color3.fromRGB(25, 25, 25)
+TextButton.Position = UDim2.new(0.577154279, 0, 0.763239861, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Flashbang :)"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(1, 8)
-UICorner_13.Parent = ProfilePicture_2
+UICorner_13.CornerRadius = UDim.new(0, 15)
+UICorner_13.Parent = TextButton
 
-WelcomeBack_2.Name = "WelcomeBack"
-WelcomeBack_2.Parent = Page1
-WelcomeBack_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-WelcomeBack_2.BorderColor3 = Color3.fromRGB(56, 56, 56)
-WelcomeBack_2.Position = UDim2.new(0.275248498, 0, 0.35812521, 0)
-WelcomeBack_2.Size = UDim2.new(0, 265, 0, 42)
-WelcomeBack_2.Font = Enum.Font.SourceSans
-WelcomeBack_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-WelcomeBack_2.TextScaled = true
-WelcomeBack_2.TextSize = 14.000
-WelcomeBack_2.TextWrapped = true
-
-UICorner_14.CornerRadius = UDim.new(0, 13)
-UICorner_14.Parent = WelcomeBack_2
-
-Toggle.Name = "Toggle"
-Toggle.Parent = Page1
-Toggle.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Toggle.BorderColor3 = Color3.fromRGB(27, 27, 27)
-Toggle.Position = UDim2.new(0.662313402, 0, 0.916417897, 0)
-Toggle.Size = UDim2.new(0, 181, 0, 28)
-Toggle.Font = Enum.Font.SourceSans
-Toggle.Text = "Press R-SHIFT to toggle"
-Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
-Toggle.TextSize = 14.000
-
-UICorner_15.CornerRadius = UDim.new(0, 13)
-UICorner_15.Parent = Toggle
-
-Teleport_3.Name = "Teleport"
-Teleport_3.Parent = hgfhgfryftshfhgjghjnmgxh
-Teleport_3.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-Teleport_3.BorderColor3 = Color3.fromRGB(56, 56, 56)
-Teleport_3.Position = UDim2.new(0.331021428, 0, 0.298076928, 0)
-Teleport_3.Size = UDim2.new(0, 536, 0, 335)
-Teleport_3.Visible = false
-
-UICorner_16.CornerRadius = UDim.new(0, 13)
-UICorner_16.Parent = Teleport_3
-
-ScrollingFrame.Parent = Teleport_3
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame.BackgroundTransparency = 0.800
-ScrollingFrame.BorderColor3 = Color3.fromRGB(56, 56, 56)
-ScrollingFrame.Position = UDim2.new(0.29635939, 0, 0.135364503, 0)
-ScrollingFrame.Size = UDim2.new(0, 317, 0, 244)
-
-UIListLayout.Parent = ScrollingFrame
-UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout.Padding = UDim.new(0, 1)
-
-dummyButton.Name = "dummyButton"
-dummyButton.Parent = ScrollingFrame
-dummyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-dummyButton.Position = UDim2.new(0.411698222, 0, 0.222388074, 0)
-dummyButton.Size = UDim2.new(0, 160, 0, 33)
-dummyButton.Font = Enum.Font.SourceSans
-dummyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-dummyButton.TextSize = 14.000
-
-pages_3.Name = "pages"
-pages_3.Parent = Teleport_3
-
-page1_3.Name = "page1"
-page1_3.Parent = pages_3
-page1_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page1_3.Position = UDim2.new(0, 0, 0.0507462695, 0)
-page1_3.Size = UDim2.new(0, 64, 0, 20)
-page1_3.Font = Enum.Font.SourceSans
-page1_3.Text = "Page 1"
-page1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-page1_3.TextSize = 14.000
-page1_3.TextWrapped = true
-
-UICorner_17.CornerRadius = UDim.new(0, 13)
-UICorner_17.Parent = page1_3
-
-page2_3.Name = "page2 "
-page2_3.Parent = pages_3
-page2_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-page2_3.Position = UDim2.new(0, 0, 0.134328365, 0)
-page2_3.Size = UDim2.new(0, 64, 0, 20)
-page2_3.Font = Enum.Font.SourceSans
-page2_3.Text = "Page 2"
-page2_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-page2_3.TextSize = 14.000
-page2_3.TextWrapped = true
-
-UICorner_18.CornerRadius = UDim.new(0, 13)
-UICorner_18.Parent = page2_3
-
-Teleport_4.Name = "Teleport"
-Teleport_4.Parent = pages_3
-Teleport_4.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Teleport_4.Position = UDim2.new(0, 0, 0.214925379, 0)
-Teleport_4.Size = UDim2.new(0, 64, 0, 20)
-Teleport_4.Font = Enum.Font.SourceSans
-Teleport_4.Text = "Teleport"
-Teleport_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Teleport_4.TextSize = 14.000
-Teleport_4.TextWrapped = true
-
-UICorner_19.CornerRadius = UDim.new(0, 13)
-UICorner_19.Parent = Teleport_4
-
-Close_3.Name = "Close"
-Close_3.Parent = pages_3
-Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_3.BackgroundTransparency = 1.000
-Close_3.Position = UDim2.new(0.929104507, 0, 0, 0)
-Close_3.Size = UDim2.new(0, 38, 0, 31)
-Close_3.Font = Enum.Font.SourceSans
-Close_3.Text = "X"
-Close_3.TextColor3 = Color3.fromRGB(255, 0, 0)
-Close_3.TextScaled = true
-Close_3.TextSize = 14.000
-Close_3.TextWrapped = true
+Flashbang.Name = "Flashbang"
+Flashbang.Parent = abcergegfdgfdgfdgdf
+Flashbang.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flashbang.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Flashbang.Size = UDim2.new(1, 0, 1, 0)
+Flashbang.Visible = false
 
 -- Scripts:
 
-local function JPYIWOV_fake_script() -- Load.LocalScript 
-	local script = Instance.new('LocalScript', Load)
+local function UXCJEHC_fake_script() -- Loading.LocalScript 
+	local script = Instance.new('LocalScript', Loading)
 
+	local FLoading = script.Parent.Parent.Parent.FrameLoading
 	local button = script.Parent
 	local amount = 0
 	local page1 = script.Parent.Parent.Parent["Page 1"]
+	local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+	
+	
 	
 	repeat
 		button.Text = "Loading"
-			wait(0.5)
+		wait(0.5)
 		button.Text = "Loading."
-			wait(0.5)
+		wait(0.5)
 		button.Text = "Loading.."
-			wait(0.5)
+		wait(0.5)
 		button.Text = "Loading..."
-			wait(0.5)
+		wait(0.5)
 		amount += 1
 		print(amount)
-	until(amount == 5)
+	until(amount == 3)
 	
 	
-	if amount == 5 then
-		button.Text = "Succesfully loaded!"
-		wait(1.5)
-		button.Text = "Click to load"
+	if amount == 3 then
+		button.Text = "Game Found!"
+		wait(1)
+		button.Text = GameName
+		wait(2)
+		button.Text = "Execute"
 		button.MouseButton1Click:Connect(function()
-			print("Succesfully executed")
-			button.Text = "Executed"
-			wait(0.7)
-			script.Parent.Parent.Parent.Home:Destroy()
-			wait(0.3)
+			FLoading:Destroy()
+			wait(0.2)
 			page1.Visible = true
 		end)
 	end
 end
-coroutine.wrap(JPYIWOV_fake_script)()
-local function MYXR_fake_script() -- hgfhgfryftshfhgjghjnmgxh.LocalScript 
-	local script = Instance.new('LocalScript', hgfhgfryftshfhgjghjnmgxh)
+coroutine.wrap(UXCJEHC_fake_script)()
+local function XFOJ_fake_script() -- abcergegfdgfdgfdgdf.LocalScript 
+	local script = Instance.new('LocalScript', abcergegfdgfdgfdgdf)
 
 	repeat wait() until game.Players.LocalPlayer.Character
 	
@@ -427,30 +322,19 @@ local function MYXR_fake_script() -- hgfhgfryftshfhgjghjnmgxh.LocalScript
 	local thumbSize = Enum.ThumbnailSize.Size420x420
 	local content, isReady = game.Players:GetUserThumbnailAsync(userid, thumbType, thumbSize)
 	local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-	local home = script.Parent.Home
+	local loading = script.Parent.FrameLoading
+	local setting = script.Parent.settings
 	local page1 = script.Parent["Page 1"]
-	local page2 = script.Parent["Page 2"]
-	local teleport = script.Parent.Teleport
 	
+	loading.ProfilePicture.Image = content
+	loading.WelcomeBack.Text = "Welcome back "..name
 	
-	home.ProfilePicture.Image = content
-	home.WelcomeBack.Text = "Welcome back "..name
-	page1.ProfilePicture.Image = content
-	page1.WelcomeBack.Text = "Welcome back "..name
-	
-	
-	home.Active = true
-	home.Draggable = true
-	
-	page2.Active = true
-	page2.Draggable = true
 	
 	page1.Active = true
 	page1.Draggable = true
 	
-	teleport.Active = true
-	teleport.Draggable = true
-	
+	setting.Active = true
+	setting.Draggable = true
 	
 	
 	
@@ -465,126 +349,12 @@ local function MYXR_fake_script() -- hgfhgfryftshfhgjghjnmgxh.LocalScript
 	end
 	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 end
-coroutine.wrap(MYXR_fake_script)()
-local function NFPRKWR_fake_script() -- page1.LocalScript 
-	local script = Instance.new('LocalScript', page1)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = true
-		page2.Visible = false
-		teleport.Visible = false
-	end)
-end
-coroutine.wrap(NFPRKWR_fake_script)()
-local function KMXQ_fake_script() -- page2.LocalScript 
-	local script = Instance.new('LocalScript', page2)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = false
-		page2.Visible = true
-		teleport.Visible = false
-	end)
-end
-coroutine.wrap(KMXQ_fake_script)()
-local function ZRPY_fake_script() -- Teleport.LocalScript 
-	local script = Instance.new('LocalScript', Teleport)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = false
-		page2.Visible = false
-		teleport.Visible = true
-	end)
-end
-coroutine.wrap(ZRPY_fake_script)()
-local function XHNNMD_fake_script() -- Close.LocalScript 
-	local script = Instance.new('LocalScript', Close)
-
-	local screengui = script.Parent.Parent.Parent.Parent.Parent.hgfhgfryftshfhgjghjnmgxh
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		screengui:Destroy()
-	end)
-	
-end
-coroutine.wrap(XHNNMD_fake_script)()
-local function UVESUK_fake_script() -- page1_2.LocalScript 
-	local script = Instance.new('LocalScript', page1_2)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = true
-		page2.Visible = false
-		teleport.Visible = false
-	end)
-end
-coroutine.wrap(UVESUK_fake_script)()
-local function ERUSCIT_fake_script() -- page2_2.LocalScript 
-	local script = Instance.new('LocalScript', page2_2)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = false
-		page2.Visible = true
-		teleport.Visible = false
-	end)
-end
-coroutine.wrap(ERUSCIT_fake_script)()
-local function DSAPEW_fake_script() -- Teleport_2.LocalScript 
-	local script = Instance.new('LocalScript', Teleport_2)
-
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		page1.Visible = false
-		page2.Visible = false
-		teleport.Visible = true
-	end)
-end
-coroutine.wrap(DSAPEW_fake_script)()
-local function CDXAU_fake_script() -- Close_2.LocalScript 
-	local script = Instance.new('LocalScript', Close_2)
-
-	local screengui = script.Parent.Parent.Parent.Parent.Parent.hgfhgfryftshfhgjghjnmgxh
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		screengui:Destroy()
-	end)
-	
-end
-coroutine.wrap(CDXAU_fake_script)()
-local function PVMJHUD_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(XFOJ_fake_script)()
+local function TIJM_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local Plr = game:GetService("Players") 
-	local PlrFold = script.Parent
+	local PlrFold = script.Parent.Parent.ScrollingFrame
 	
 	local dummyButton = PlrFold.dummyButton:Clone() 
 	PlrFold.dummyButton:Destroy() 
@@ -605,8 +375,11 @@ local function PVMJHUD_fake_script() -- ScrollingFrame.LocalScript
 			newButton.Text = v.Name 
 	
 			newButton.MouseButton1Down:connect(function()
-	
-				Plr.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
+				if Plr.LocalPlayer.Name == v.Name then
+					newButton.Text = "Can't teleport to yourself"
+				else
+				Plr.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame	--script
+			end
 			end)
 	
 			newButton.Parent = PlrFold
@@ -620,61 +393,94 @@ local function PVMJHUD_fake_script() -- ScrollingFrame.LocalScript
 	
 	update()
 end
-coroutine.wrap(PVMJHUD_fake_script)()
-local function HSFQ_fake_script() -- page1_3.LocalScript 
-	local script = Instance.new('LocalScript', page1_3)
+coroutine.wrap(TIJM_fake_script)()
+local function ITUSKE_fake_script() -- page1.LocalScript 
+	local script = Instance.new('LocalScript', page1)
 
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
+	local pages = script.Parent.Parent.Parent.Parent
+	local page1 = pages["Page 1"]
+	local setting = pages.settings
+	local button  = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		page1.Visible = true
-		page2.Visible = false
-		teleport.Visible = false
+		setting.Visible = false
 	end)
 end
-coroutine.wrap(HSFQ_fake_script)()
-local function LFDOM_fake_script() -- page2_3.LocalScript 
-	local script = Instance.new('LocalScript', page2_3)
+coroutine.wrap(ITUSKE_fake_script)()
+local function HEVEALA_fake_script() -- Settings.LocalScript 
+	local script = Instance.new('LocalScript', Settings)
 
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
-	local button = script.Parent
+	local pages = script.Parent.Parent.Parent.Parent
+	local page1 = pages["Page 1"]
+	local setting = pages.settings
+	local button  = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		page1.Visible = false
-		page2.Visible = true
-		teleport.Visible = false
+		setting.Visible = true
 	end)
 end
-coroutine.wrap(LFDOM_fake_script)()
-local function FWOTD_fake_script() -- Teleport_4.LocalScript 
-	local script = Instance.new('LocalScript', Teleport_4)
+coroutine.wrap(HEVEALA_fake_script)()
+local function UPVYW_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
 
-	local page1 = script.Parent.Parent.Parent.Parent["Page 1"]
-	local page2 = script.Parent.Parent.Parent.Parent["Page 2"]
-	local teleport = script.Parent.Parent.Parent.Parent.Teleport
 	local button = script.Parent
+	local gui = script.Parent.Parent.Parent.Parent.Parent.abcergegfdgfdgfdgdf
+	button.MouseButton1Click:Connect(function()
+		gui:Destroy()
+	end)
+end
+coroutine.wrap(UPVYW_fake_script)()
+local function JYOTGX_fake_script() -- page1_2.LocalScript 
+	local script = Instance.new('LocalScript', page1_2)
+
+	local pages = script.Parent.Parent.Parent.Parent
+	local page1 = pages["Page 1"]
+	local setting = pages.settings
+	local button  = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		page1.Visible = true
+		setting.Visible = false
+	end)
+end
+coroutine.wrap(JYOTGX_fake_script)()
+local function CXFNC_fake_script() -- Settings_2.LocalScript 
+	local script = Instance.new('LocalScript', Settings_2)
+
+	local pages = script.Parent.Parent.Parent.Parent
+	local page1 = pages["Page 1"]
+	local setting = pages.settings
+	local button  = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		page1.Visible = false
-		page2.Visible = false
-		teleport.Visible = true
+		setting.Visible = true
 	end)
 end
-coroutine.wrap(FWOTD_fake_script)()
-local function OCLRQR_fake_script() -- Close_3.LocalScript 
-	local script = Instance.new('LocalScript', Close_3)
+coroutine.wrap(CXFNC_fake_script)()
+local function QCVL_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
 
-	local screengui = script.Parent.Parent.Parent.Parent.Parent.hgfhgfryftshfhgjghjnmgxh
 	local button = script.Parent
+	local gui = script.Parent.Parent.Parent.Parent.Parent.abcergegfdgfdgfdgdf
+	button.MouseButton1Click:Connect(function()
+		gui:Destroy()
+	end)
+end
+coroutine.wrap(QCVL_fake_script)()
+local function GCUE_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local flashbang  = script.Parent.Parent.Parent.Flashbang
+	local time = 0.5
+	local button  = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		screengui:Destroy()
+		flashbang.Visible = true
+		wait(time)
+		flashbang.Visible = false
 	end)
-	
 end
-coroutine.wrap(OCLRQR_fake_script)()
+coroutine.wrap(GCUE_fake_script)()
